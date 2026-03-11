@@ -23,10 +23,27 @@ export default function ProformaPage() {
                         March 2026 · Custom Proposal
                     </p>
                 </div>
-                <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium bg-gold-500/10 text-gold-500 hover:bg-gold-500 hover:text-background px-6 py-3 transition-colors mt-4 md:mt-0">
-                    <ArrowLeft size={16} />
-                    View Live Demo
-                </Link>
+                <div className="flex flex-col gap-3">
+                    <Link href="/" className="inline-flex items-center justify-center gap-2 text-sm font-medium bg-gold-500 text-background hover:bg-gold-400 px-6 py-3 transition-colors">
+                        View Public Home
+                    </Link>
+                    <Link href="/admin" className="inline-flex items-center justify-center gap-2 text-sm font-medium bg-surface border border-border text-foreground hover:border-gold-500/50 px-6 py-3 transition-colors">
+                        Explore Agent Portal
+                    </Link>
+                </div>
+            </div>
+
+            <div className="max-w-4xl mx-auto px-6 mt-12">
+                <div className="bg-gold-500/5 border border-gold-500/20 p-6 rounded-lg flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div>
+                        <h3 className="text-lg font-serif mb-1">Interactive Prototypes</h3>
+                        <p className="text-sm text-foreground/60 font-light">Explore the live implementation of the proposed architecture.</p>
+                    </div>
+                    <div className="flex gap-4">
+                        <Link href="/" className="text-xs uppercase tracking-widest font-bold text-gold-500 hover:text-gold-400 underline underline-offset-8">Public Website</Link>
+                        <Link href="/admin" className="text-xs uppercase tracking-widest font-bold text-gold-500 hover:text-gold-400 underline underline-offset-8">Agent Dashboard</Link>
+                    </div>
+                </div>
             </div>
 
             <main className="max-w-4xl mx-auto px-6 mt-16 space-y-32">
