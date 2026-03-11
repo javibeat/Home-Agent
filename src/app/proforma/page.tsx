@@ -207,11 +207,11 @@ export default function ProformaPage() {
                                 </div>
                             </div>
                             
-                            <div className="bg-gold-500/5 border border-gold-500/20 p-8">
-                                <p className="text-sm font-medium uppercase tracking-widest text-gold-500 mb-6 font-bold">Optional: Concierge Support</p>
-                                <div className="flex items-baseline gap-2 mb-8">
-                                    <span className="text-3xl font-serif">AED 1,200</span>
-                                    <span className="text-foreground/40 text-xs">/month</span>
+                            <div className="bg-gold-500/10 border border-gold-500/30 p-8 shadow-sm">
+                                <p className="text-sm font-medium uppercase tracking-widest text-gold-500 mb-6 font-bold">Exclusive Bonus</p>
+                                <div className="flex flex-col gap-2 mb-8">
+                                    <span className="text-3xl font-serif">1 Year Free</span>
+                                    <span className="text-foreground/40 text-xs font-medium uppercase tracking-widest">Concierge Support</span>
                                 </div>
                                 <div className="space-y-4">
                                     <p className="text-xs font-medium uppercase tracking-widest text-foreground/50">Maintenance Benefits:</p>
@@ -222,6 +222,7 @@ export default function ProformaPage() {
                                         <li>• Technical SEO Maintenance</li>
                                     </ul>
                                 </div>
+                                <p className="mt-8 text-[10px] text-gold-500/60 uppercase tracking-tighter">* Valued at AED 14,400/year</p>
                             </div>
                         </div>
 
