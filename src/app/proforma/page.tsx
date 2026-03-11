@@ -188,21 +188,44 @@ export default function ProformaPage() {
                             A comprehensive breakdown of the project scope. This quotation covers the end-to-end development of the bespoke real estate platform outlined in this proposal.
                         </p>
 
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                            <div className="md:col-span-2 bg-surface border border-border p-8">
+                                <p className="text-sm font-medium uppercase tracking-widest text-gold-500 mb-6">Phase 1: Bespoke Development</p>
+                                <div className="flex items-baseline gap-2 mb-8">
+                                    <span className="text-5xl font-serif">AED 18,000</span>
+                                    <span className="text-foreground/40 text-sm">One-time Investment</span>
+                                </div>
+                                <div className="space-y-4">
+                                    <p className="text-sm font-medium uppercase tracking-widest text-foreground/50">Included Scope:</p>
+                                    <ul className="text-sm text-foreground/70 font-light space-y-2 list-disc pl-4">
+                                        <li>Luxury UX/UI Design & Frontend Development</li>
+                                        <li>Property Catalog with Architecture for 20 initial listings</li>
+                                        <li>Agent Portal (CRM) & Portfolio Dashboard</li>
+                                        <li>Advanced SEO & AI-Ready Metadata</li>
+                                        <li>Vercel Edge Deployment Setup</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div className="bg-gold-500/5 border border-gold-500/20 p-8">
+                                <p className="text-sm font-medium uppercase tracking-widest text-gold-500 mb-6 font-bold">Optional: Concierge Support</p>
+                                <div className="flex items-baseline gap-2 mb-8">
+                                    <span className="text-3xl font-serif">AED 1,200</span>
+                                    <span className="text-foreground/40 text-xs">/month</span>
+                                </div>
+                                <div className="space-y-4">
+                                    <p className="text-xs font-medium uppercase tracking-widest text-foreground/50">Maintenance Benefits:</p>
+                                    <ul className="text-xs text-foreground/70 font-light space-y-2">
+                                        <li>• Priority Content Updates</li>
+                                        <li>• 24/7 Uptime Monitoring</li>
+                                        <li>• Quarterly Performance Audits</li>
+                                        <li>• Technical SEO Maintenance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="bg-surface border border-border p-8 mb-8">
-                            <p className="text-sm font-medium uppercase tracking-widest text-foreground/50 mb-2">Scope of Work (Included):</p>
-                            <p className="text-sm text-foreground/70 font-light leading-relaxed">
-                                Complete Luxury UX/UI Design, Full Frontend Development (Next.js + Tailwind CSS), Property Catalog Integration (Architecture setup for up to 20 initial property uploads), Structural Database implementation, Advanced SEO/AI-Ready configuration, and Production Deployment setup.
-                            </p>
-
-                            <div className="h-[1px] w-full bg-border my-6"></div>
-
-                            <p className="text-sm font-medium uppercase tracking-widest text-foreground/50 mb-2">Exclusions:</p>
-                            <p className="text-sm text-foreground/70 font-light leading-relaxed">
-                                Annual Domain Registration costs (e.g., .com, .ae), ongoing third-party hosting fees (if applicable beyond free tiers), and continuous marketing/content generation (e.g., ongoing property photoshoots).
-                            </p>
-
-                            <div className="h-[1px] w-full bg-border my-6"></div>
-
                             <div className="flex flex-col sm:flex-row gap-8">
                                 <div>
                                     <p className="text-sm font-medium uppercase tracking-widest text-foreground/50 mb-2">Delivery Timeline</p>

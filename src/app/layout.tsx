@@ -24,6 +24,20 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AE",
     siteName: "Dubai Premium Real Estate",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "A. Reid | Luxury Real Estate Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Premium Real Estate | Dubai",
+    description: "Exclusive properties and off-plan investments in Dubai.",
+    images: ["/images/og-image.png"],
   },
   robots: {
     index: true,
