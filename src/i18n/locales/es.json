@@ -1,0 +1,22 @@
+{
+    "common": {
+        "contact": "Contacto",
+        "letstalk": "Hablemos",
+        "login": "Acceso Agente"
+    },
+    "nav": {
+        "home": "Inicio",
+        "properties": "Propiedades",
+        "about": "Alexander",
+        "testimonials": "Testimonios"
+    },
+    "hero": {
+        "badge": "Inmobiliaria Premium en Dubái",
+        "title_1": "Eleva tu",
+        "title_2": "Estilo de Vida",
+        "title_3": "en Dubái",
+        "subtitle": "Acceso exclusivo a promociones sobre plano y propiedades de ultra lujo en los barrios más codiciados de los EAU.",
+        "cta_primary": "Ver Propiedades",
+        "cta_secondary": "Consultar con Alexander"
+    }
+}

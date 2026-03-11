@@ -1,0 +1,22 @@
+{
+    "common": {
+        "contact": "Contact",
+        "letstalk": "Let's Talk",
+        "login": "Agent Login"
+    },
+    "nav": {
+        "home": "Home",
+        "properties": "Properties",
+        "about": "About",
+        "testimonials": "Testimonials"
+    },
+    "hero": {
+        "badge": "Dubai's Premier Real Estate",
+        "title_1": "Elevate Your",
+        "title_2": "Lifestyle",
+        "title_3": "in Dubai",
+        "subtitle": "Exclusive access to off-plan master developments and ultra-luxury secondary market properties in the UAE's most coveted neighborhoods.",
+        "cta_primary": "Explore Properties",
+        "cta_secondary": "Consult with Alexander"
+    }
+}
