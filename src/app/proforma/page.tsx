@@ -199,7 +199,7 @@ export default function ProformaPage() {
                                     <p className="text-sm font-medium uppercase tracking-widest text-foreground/50">Included Scope:</p>
                                     <ul className="text-sm text-foreground/70 font-light space-y-2 list-disc pl-4">
                                         <li>Luxury UX/UI Design & Frontend Development</li>
-                                        <li>Property Catalog with Architecture for 20 initial listings</li>
+                                        <li>Full Property Catalog with Unlimited Listings</li>
                                         <li>Agent Portal (CRM) & Portfolio Dashboard</li>
                                         <li>Advanced SEO & AI-Ready Metadata</li>
                                         <li>Vercel Edge Deployment Setup</li>
